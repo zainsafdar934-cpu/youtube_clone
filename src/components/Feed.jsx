@@ -1,4 +1,5 @@
 import { Box, Stack, Typography } from "@mui/material";
+import { Sidebar } from "./index";
 
 const Feed = () => {
   return (
@@ -10,7 +11,7 @@ const Feed = () => {
           px: { sx: 0, md: 2 },
         }}
       >
-        Sidebar
+        <Sidebar />
         <Typography
           className="copyright"
           variant="body2"
